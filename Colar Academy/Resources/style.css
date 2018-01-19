@@ -1,0 +1,461 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #4A4A4A;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+
+a {
+	color: #6194DD;
+}
+
+/** DIV BORDER FOR TESTING
+div {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	display: block;
+}
+**/
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/** Top Bar start **/
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav li {
+	display: inline;
+	padding-left: 16px;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	display: inline-block;
+}
+
+.header1 {
+	font-weight: bold;
+	color: #4A4A4A;
+}
+
+.header2 {
+	color: #9B9B9B;
+}
+
+.menu {
+	margin-right: 24px;
+}
+
+.navigation {
+	background-color: white;
+	height: 64px;
+	width: 100%;
+}
+
+.logo img {
+	height: 32px;
+}
+
+.logo {
+	margin-left: 24px;
+}
+
+/** Top Bar end **/
+
+/** Main Banner start **/
+.main-section {
+	background-color: #D8D8D8;
+	color: #4A4A4A;
+	display: flex;
+	align-items: center;
+}
+
+.headline h1 {
+	text-align: left;
+	padding-bottom: 1rem;
+}
+
+.headline h2 {
+	font-size: 1.5rem;
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #4A4A4A;
+	width: 100%;
+	text-align: center;
+	margin-top: 24px;
+}
+
+.banner {
+	width: 58%;
+	margin-top: 32px;
+	margin-left: 24px;
+	padding-right: 24px;
+	margin-bottom: 32px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.headline {
+	width: 30%;
+}
+
+/** Main Banner end **/
+
+/** Information Banner start **/
+.information-section {
+	display: flex;
+}
+
+.information-section p {
+	font-size: 1.2em;
+}
+
+.information-main {
+	background-color: white;
+	color: #4A4A4A;
+	width: 60%;
+	margin-right: 24px;
+}
+
+.information-banner {
+	width: 100%;
+	margin-top: 32px;
+	margin-left: 24px;
+}
+
+.information-main img{
+	width: 100%;	
+}
+
+.information-main div {
+	margin-left: 24px;
+	line-height: 300%;
+}
+
+.information-main h1 {
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+.information-main p {
+	margin-bottom: 32px;
+}
+
+.information-listing {
+	width: 40%;
+	margin-left: 24px;
+}
+
+.info-box {
+	display: flex;
+}
+
+.thumbnail {
+	width: 35%;
+	height: auto;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+}
+
+.info-text {
+	width: 65%;
+	margin-top: auto;
+	margin-bottom: auto;
+	justify-content: center;
+	text-align: left;
+	line-height: 200%;
+}
+
+.info-text p, h3, a {
+	margin-left: 24px;
+	margin-bottom: 8px;
+	align-items: center;
+}
+
+.information-listing img{
+	width: 100%;
+}
+
+#guest {
+	background-color: #D8D8D8;
+}
+
+/** Information Banner end **/
+
+/** Start Learning section **/
+.start-learning {
+	background-color: #EAEBEC;
+}
+
+.title {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.learning-container {
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-bottom: 32px;
+	background-color: #EAEBEC;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.six {
+	width: 30%;
+	margin-bottom: 32px;
+	background-color: white;
+	padding-bottom: 24px;
+}
+
+.six img {
+	width: 100%;
+	height: auto;
+}
+
+.course-title {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.course {
+	padding-top: 8px;
+	font-size: 1.2em;
+}
+
+.six div {
+	background-color: white;
+	margin-left: 16px;
+	text-align: left;
+}
+/** End Start Learning Section**/
+
+
+/** Start Thesis Section**/
+.thesis-section {
+	background-color: #D8D8D8;
+	color: #4A4A4A;
+	align-items: center;
+	width: 100%;
+}
+
+.thesis-content {
+	display: flex;
+}
+
+.thesis-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
+	width: 55%;
+	margin-left: 24px;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.thesis-right {
+	width: 40%;
+	margin-left: 24px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thesis-right-text {
+	width: 50%;
+	align-items: center;
+	text-align: left;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.thesis-right-block {
+	width: 100%;
+	display: flex;
+}
+
+.image-container {
+	width: 35%;
+	height: auto;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+}
+
+.image-container img {
+	width: 100%;
+}
+/** End Thesis Section**/
+
+/** Start Footer**/
+footer {
+	margin-top: 32px;
+	height: 160px;
+	border-top: 1px gray solid;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer p {
+	margin-left: 24px;
+	margin-top: 16px;
+}
+
+.links {
+	margin-right: 24px;
+}
+
+/** Footer End**/
+
+/** Start Media QUERY Desktop**/
+@media only screen and (min-width: 641px) {
+	.mobile-header, .mobile {
+		display: none;
+	}
+}
+
+
+/** Start Media QUERY Mobile**/
+@media only screen and (max-width: 640px) {
+	.main-section {
+		flex-flow: column;
+	}
+	.banner {
+		width: 100%;
+	}
+	.headline {
+		width: 100%;
+		padding-bottom: 32px;
+	}
+	.information-main {
+		display: none;
+	}
+	.information-listing {
+		width: 100%;
+	}
+	.info-box {
+		flex-direction: column;
+	}
+	.thumbnail {
+		width: 90%;
+	}
+	.thumbnail img {
+		max-width: 100%;
+		height: auto;
+	}
+	.info-text {
+		width: 100%;
+	}
+	.start-learning {
+		background-color: white;
+	}
+	.title {
+		margin-bottom: 16px;
+	}
+
+	.thesis-left-text {
+		display: none;
+	}
+	.thesis-right {
+		display: none;
+	}
+	.thesis-left {
+		width: 100%;
+		margin: 0;
+	}
+	.learning-container {
+		margin: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	.six img, h5, h4 {
+		display: none;
+	}
+
+	.six {
+		width: 100%;
+		background-color: white;
+		margin: 0;
+		padding: 0;
+	}
+
+	.six div {
+		text-align: left;
+		align-items: center;
+		margin-top: 0;
+		margin-bottom: 8px;
+		margin-left: 16px;
+		margin-right: 16px;
+		padding: 0;
+	}
+	.course-title {
+		background-color: #D8D8D8;
+		padding-left: 16px;
+		padding-top: 16px;
+		padding-bottom: 24px;
+	}
+	.links {
+		display: none;
+	}
+	footer {
+		margin: 0;
+		height: 80px;
+	}
+
+	footer p {
+		padding-top: 16px;
+		padding-bottom: 16px;
+		margin-top: 24px;
+	}
+	.logo, .menu, .desktop {
+		display: none;
+	}
+	.headline h2 {
+		background-color: #9B9B9B;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.mobile-header {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
